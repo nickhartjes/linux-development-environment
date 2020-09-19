@@ -1,0 +1,56 @@
+username: nickhartjes
+home: /home/{{ username }}
+repositories:
+ typora:
+  repository: deb https://typora.io/linux ./
+  key_url: https://typora.io/linux/public-key.asc
+packages:
+ - caffeine
+ - chrome-gnome-shell
+ - git
+ - gnome-tweaks
+ - google-chrome-stable
+ - jq
+ - openjdk-11-jdk
+ - openjdk-13-jdk
+ - openjdk-8-jdk
+ - python3
+ - python3-pip
+ - stacer
+ - tilix
+ - typora
+ - variety
+ - vim
+ - zsh
+snap:
+ - authy
+ - discord
+ - docker
+ - gimp
+ - mysql-workbench-community
+ - obs-studio
+ - onlyoffice-desktopeditors
+ - postman
+ - prospect-mail
+ - qts3browser
+ - redis-desktop-manager
+ - snap-store
+ - spotify
+ - vlc
+snapclassic:
+ - code
+ - kontena-lens
+ - kubectl
+ - node
+ - shotcut
+ - slack
+ - sublime-text
+targzs:
+ jetbrains:
+  name: jetbrains-toolbox
+  url: https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.18.7455.tar.gz
+  target_dir: "{{ home }}"
+  original_dir: jetbrains-toolbox-1.18.7455
+  symlinked_dir: jetbrains-toolbox
+pip:
+ - pipenv
