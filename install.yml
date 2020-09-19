@@ -2,8 +2,8 @@
 - hosts: localhost
   tasks:
    - include: tasks/apt.yml
-   - include: tasks/docker.yml
+  #  - include: tasks/docker.yml
    - include: tasks/pip.yml
    - include: tasks/snap.yml
    - include: tasks/targz-apps.yml
-  #  - include: customization.yml
+   - include: tasks/customization.yml
