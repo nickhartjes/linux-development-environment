@@ -48,9 +48,9 @@ if [ ! -d ".dev-env" ]; then
   git clone https://github.com/nickhartjes/linux-development-environment.git .dev-env
 fi
 
-Checkout specified branch
+# Checkout specified branch
 cd .dev-env
 git checkout ${BRANCH}
 
-Run Ansible playbook
+# Run Ansible playbook
 ./install.sh

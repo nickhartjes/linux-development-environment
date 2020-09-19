@@ -22,6 +22,9 @@ packages:
  - variety
  - vim
  - zsh
+removepackages:
+ - libreoffice
+ - thunderbird 
 snap:
  - authy
  - discord
