@@ -51,6 +51,7 @@ fi
 # Checkout specified branch
 cd .dev-env
 git checkout ${BRANCH}
+git pull
 
 # Run Ansible playbook
 ./install.sh
