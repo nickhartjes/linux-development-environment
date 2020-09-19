@@ -10,10 +10,12 @@
     name: "{{ snap.classic }}"
     classic: true
 - name: Install Snaps with option --channel=latest/beta
+  become: yes
   snap:
     name: "{{ snap.beta }}"
     channel: latest/beta
 - name: Install Snaps with option --channel=latest/edge
+  become: yes
   snap:
     name: "{{ snap.edge }}"
     channel: latest/edge
