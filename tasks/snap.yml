@@ -9,7 +9,11 @@
   snap:
     name: "{{ snap.classic }}"
     classic: true
-- name: Install Snaps with option --channel=latest/edge
+- name: Install Snaps with option --channel=latest/beta
   snap:
     name: "{{ snap.beta }}"
     channel: latest/beta
+- name: Install Snaps with option --channel=latest/edge
+  snap:
+    name: "{{ snap.edge }}"
+    channel: latest/edge
