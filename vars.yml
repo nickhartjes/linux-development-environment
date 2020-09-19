@@ -31,30 +31,32 @@ packages:
  - zsh
 removepackages:
  - libreoffice
- - thunderbird 
+ - thunderbird
 snap:
- - authy
- - discord
- - docker
- - gimp
- - mysql-workbench-community
- - obs-studio
- - onlyoffice-desktopeditors
- - postman
- - prospect-mail
- - qts3browser
- - redis-desktop-manager
- - snap-store
- - spotify
- - vlc
-snapclassic:
- - code
- - kontena-lens
- - kubectl
- - node
- - shotcut
- - slack
- - sublime-text
+  default:
+  - discord
+  - docker
+  - gimp
+  - mysql-workbench-community
+  - obs-studio
+  - onlyoffice-desktopeditors
+  - postman
+  - prospect-mail
+  - qts3browser
+  - redis-desktop-manager
+  - snap-store
+  - spotify
+  - vlc
+  classic:
+  - code
+  - kontena-lens
+  - kubectl
+  - node
+  - shotcut
+  - slack
+  - sublime-text
+  beta:
+  - authy
 targzs:
  jetbrains:
   name: jetbrains-toolbox
