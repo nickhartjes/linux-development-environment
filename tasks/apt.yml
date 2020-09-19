@@ -14,3 +14,7 @@
     state: latest
     update_cache: true
     name: "{{ packages }}"
+- name: Remove packages
+  apt:
+    name: "{{ removepackages }}"
+    state: absent
