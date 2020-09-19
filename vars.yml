@@ -7,6 +7,9 @@ repositories:
  typora:
   repository: deb https://typora.io/linux ./
   key_url: https://typora.io/linux/public-key.asc
+ teams:
+  repository: deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main
+  key_url: https://packages.microsoft.com/keys/microsoft.asc
 packages:
  - caffeine
  - chrome-gnome-shell
@@ -20,6 +23,7 @@ packages:
  - python3
  - python3-pip
  - stacer
+ - teams
  - tilix
  - typora
  - variety
