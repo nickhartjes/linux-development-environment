@@ -41,11 +41,13 @@ snap:
   - obs-studio
   - onlyoffice-desktopeditors
   - postman
-  - prospect-mail
   - redis-desktop-manager
   - snap-store
   - spotify
-  - vlc
+  - spotifyd                        # Spotify daemon 
+  - spt                             # Spotify Text ui 
+  - unofficial-webapp-office        # Office 365 Wrappers
+  - vlc                             # VLC Media Player
   classic:
   - code
   - kontena-lens
